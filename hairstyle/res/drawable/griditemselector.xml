@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true">
+                <shape>
+                <gradient  android:startColor="#FFBBFF" /> 
+                      <stroke   android:width="2dp" android:color="#000000" /> 
+                       <corners android:radius="5dp" />  
+                       <padding android:left="10dp" android:top="10dp" 
+                                android:bottom="10dp" android:right="10dp"/>  
+                 </shape> 
+</item> 
+<item android:state_focused="true"
+    android:drawable="@drawable/roundconer2">
+    <!--  
+                 <shape> 
+                       <gradient android:startColor="#eac100"/> 
+                        <stroke android:width="2dp" android:color="#333333" /> 
+                         <corners android:radius="8dp" />   
+                         <padding android:left="10dp" android:top="10dp" 
+                                  android:bottom="10dp" android:right="10dp"/>                   
+                </shape> -->
+ </item>
+ <item android:state_window_focused="false"   
+        android:drawable="@drawable/roundconer2" />   
+<item android:drawable="@drawable/roundconer2"></item>
+</selector>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">KAKU美发教你做发型设计</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">释放刷新 …</string>
+    <string name="pull_to_refresh_refreshing_label">刷新中  …</string>
+    <string name="draweropen">open</string>
+    <string name="drawerclose">close</string>
+    <string name="backforward">返回</string>
+    <string name="collection">收藏</string> 
+    <string name="localimg">本地图片</string> 
+    <string name="share">分享</string> 
+    <string name="ad_unit_id">ca-app-pub-4224141881686186/5385253358</string>
+    
+</resources>

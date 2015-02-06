@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:staggered="http://schemas.android.com/apk/res-auto"
+      android:layout_marginTop="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corner" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#f84e4e"/>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ad"></LinearLayout>
+<!--  
+<com.twotoasters.jazzylistview.JazzyGridView  
+        android:id="@+id/gridv"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+         android:horizontalSpacing="5dp"
+         android:verticalSpacing="5dp"
+        android:background="@color/gainsboro" /> 
+  -->
+    <com.ijiaban.actionbar.pulltorefreshlib.PullToRefreshLayout 
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/pulltorefresh">
+         <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       >
+  <com.etsy.android.grid.StaggeredGridView
+        android:id="@+id/staggeredGridView1"
+        staggered:column_count="2"
+        staggered:drawSelectorOnTop="true"
+        android:layout_marginTop="1dp"
+         staggered:item_margin="8dp"
+         android:layout_marginLeft="-8dp"
+         android:layout_marginRight="-10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+ 
+  </LinearLayout>
+</com.ijiaban.actionbar.pulltorefreshlib.PullToRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/collect"
+        android:icon="@drawable/collect_action"
+        android:orderInCategory="60"
+        android:showAsAction="always" />
+    
+    <item android:id="@+id/share"
+        android:orderInCategory="60"
+        android:title="@string/share"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+    
+</menu>
